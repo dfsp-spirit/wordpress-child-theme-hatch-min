@@ -12,6 +12,10 @@ Wordpress child theme for the hatch theme that mainly removes clutter
 
 3) You may have to re-save your menus and theme options (including background and header images) in the Wordpress Admin panel (see `Appearance => Menus`).
 
+## Local fonts
+
+The plugin comes with a local version of the Font used by Hatch, i.e., the Abel font. See the license file in fonts/abel/ for the font's licence.
+
 ## License and Source
 
 License is GPL v2 or later, the repo is at https://github.com/dfsp-spirit/wordpress-child-theme-hatch-min
