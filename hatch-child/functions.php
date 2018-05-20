@@ -14,8 +14,12 @@ function my_theme_enqueue_styles() {
 // Do not use Google fonts remotely, enabling usage of the local version in fonts/.
 // This improves the privacy of website visitors, as requests to the Google fonts may allow tracking.
 function dequeue_unwanted_parent_theme_stuff() {
-    wp_dequeue_style('hatch_google_fonts');
-    wp_deregister_style('hatch_google_fonts');
+    wp_dequeue_script('hatch_google_fonts');
+    wp_deregister_script('hatch_google_fonts');
+
+    wp_dequeue_style('font-abel');
+    wp_deregister_style('font-abel');
+
 }
 
 // Prevent leaking of HTTP referer [sic] for browser's which support this.
